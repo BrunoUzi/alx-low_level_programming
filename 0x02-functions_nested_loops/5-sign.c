@@ -1,26 +1,31 @@
 #include "main.h"
 
+/**
+ * print_sign - Check main.h
+ * @n: An input number
+ * Description: Tohis function prints the sign of the number
+ * Return: 1 if number is positive, o if number is 0, or
+ * -1 if number is negative
+ */
+int print_sign(int n)
+{
+	int value;
 
-	/**
-	 * print_sign - prints the sign of a number
-	 * @n: the int to check
-	 * Return: 1 and prints + if n is greater than zero
-	 * 0 and prints 0 if n is zero
-	 * -1 and prints - if n is less than zero
-	 */
-	int print_sign(int n)
+	if (n > 0)
 	{
-		if (n > 0)
-		{
-			_putchar('+');
-			return (1);
-		} else if (n == 0)
-		{
-			_putchar(48);
-			return (0);
-		} else if (n < 0)
-		{
-			_putchar('-');
-		}
-			return (-1);
-	}}
+		value = 1;
+		_putchar('+');
+	}
+	else if (n == 0)
+	{
+		value = 0;
+		_putchar('0');
+	}
+	else
+	{
+		value = -1;
+		_putchar('-');
+	}
+
+	return (value);
+}}
