@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - print _putchar
+ * main - check description
  * is written by mbah
  * Return: 0
  */
