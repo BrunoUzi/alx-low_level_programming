@@ -16,5 +16,3 @@ main:
 	pop	rbp
 	mov	rax,0
 	ret
-Footer
-© 2023 GitHub, Inc.
